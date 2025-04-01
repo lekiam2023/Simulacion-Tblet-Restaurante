@@ -1,0 +1,86 @@
+
+/*Contenedor padre de la pagina mediada de Ipad Pro*/
+#conP{
+    width: 1366px;
+    height: 1024px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;/*Cuando se agreguen mas contenido entonces se pasaran en la siguiente linea */
+   
+}
+
+/*Encabezado*/
+#encabezado{
+     height:20%;
+     width: auto;
+     display: flexbox;
+     background-color: rgb(221, 227, 227);
+     justify-content: center;
+     text-align: center;
+}
+
+/*Contenedor principal de todas las images*/
+#CP{
+     display: flex;
+     flex-shrink: 40%;
+     justify-content: center;
+     background-color: rgb(255, 255, 255);
+     padding: 5%;
+     margin-bottom: 5%;
+     text-align: center;/*Texto al centro*/
+}
+
+/*Contenedor de los cafes*/
+#cafes{
+     width: 17%;
+     height: 30%;
+     padding: 20%;
+     border: 2px;
+     background-color: rgb(222, 224, 227);
+
+  
+}
+
+/*Contenedor de las cervezas*/
+#cerveza{
+     width: 17%;
+     height: 30%;
+     padding: 20%;
+     border: 2px;
+     background-color: rgb(222, 224, 227);
+
+  
+}
+
+
+/*Formatos para las fuentes de letras para los cafes*/
+.descCafe{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/*Formatos para las fuentes de letras para los cafes*/
+.descCervezas{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Formato para todas las imagenes*/
+img{
+     height: 225px;
+     width: 225px;
+     margin-bottom: 8%;
+     filter: contrast(120%);
+}
+
+#botonesPrinc{
+     margin-top: 5%;
+     width: 20%;
+     height: 20%;
+     font: 1em sans-serif;
+     font-size: 1.5rem;
+     color: aliceblue;
+     border-radius: 9%;
+     background-color: rgb(113, 113, 109);
+}
+
